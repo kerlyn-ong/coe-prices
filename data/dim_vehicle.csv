@@ -1,0 +1,6 @@
+category_id,vehicle_class,vehicle_description
+1,Category A,"Non-fully electric cars <= 1,600cc/97kW; Fully electric cars <= 110kW"
+2,Category B,"Non-fully electric cars with engines >1,600cc 97kW; Fully electric cars > 110kW"
+3,Category C,Goods vehicle and bus
+4,Category D,Motorcycle
+5,Category E,Open – all except motorcycle

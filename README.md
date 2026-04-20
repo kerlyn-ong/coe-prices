@@ -44,3 +44,6 @@ Start with Global Parameters
 KPIs
 Middle
 Bottom
+
+Base Design
+<img width="1134" height="795" alt="image" src="https://github.com/user-attachments/assets/0dcb85ba-47ad-49ad-a822-1b691298ea27" />

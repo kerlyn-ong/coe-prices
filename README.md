@@ -38,8 +38,7 @@ Other visuals are meant to be supporting and help drive buyers decisions
 * Bidding Round Comparison: Informs buyer which bidding rounds are premiums low and when to bid
 * Scatter Plot: Good to enter market when the latest dot is in the bottom-right quadrant of the scatter plot when there is high supply and low price
 
-<img width="1220" height="853" alt="image" src="https://github.com/user-attachments/assets/f292ab40-dc4e-40ae-b54a-8a0aa078682c" />
-
+<img width="1025" height="789" alt="image" src="https://github.com/user-attachments/assets/59e890b1-bd4e-441a-9b79-d182391f169a" />
 
 # Appendix
 Key Metrics Formulaes:

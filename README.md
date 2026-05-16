@@ -5,7 +5,7 @@ Singapore's COE bidding market is characterized by high volatility and psycholog
 
 ### Data Architecture and Tech Stack
 Visualization: Tableau\
-Data Processing: SQL/Python\
+Data Processing: SQL/Python via Google Colab\
 Data Modelling: Built a Star Schema from .xlsx file comprising of the 3 tables below
 * dim_date: Date table
 * dim_vehicle: Shows the different vehicle category type and description

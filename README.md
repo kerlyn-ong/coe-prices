@@ -28,7 +28,7 @@ Data Modelling: Built a Star Schema from .xlsx file comprising of the 3 tables b
 ### Dashboard
 [Tableau Link - COE Prices Dashboard](https://public.tableau.com/app/profile/kerlyn.ong/viz/COE_Prices/COEPricesDashboard)
 
-The dashboard - filter by Category, tells the audience to wait until an opportunity rises to buy mainly due to:
+The dashboard - filtered by Category, tells the audience to wait until an opportunity rises to buy mainly due to:
 * Volatility Chart: Premium being higher than current Prevailing Quota Price
 
 Other visuals are meant to be supporting and help drive buyers decisions

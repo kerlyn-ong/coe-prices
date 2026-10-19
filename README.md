@@ -4,7 +4,7 @@
 Singapore's COE bidding market is characterized by high volatility and psychological bidding. Buyers lack a consolidated tool to tell them if they should enter the market now or wait. Hence, I developed an end-to-end analytics solution to assist high-intent car buyers in navigating the volatile Singapore Certificate of Entitlement (COE) Market. This dashboard provides real-time market checks and recommendations whether to 'Buy/Wait'.
 
 ### Key Insights
-Based on historical bidding trends up to April 2026, the dashboard yields three core findings regarding market timing and buyer strategy across Singapore vehicle categories:
+Based on historical bidding trends up to April 2026, the dashboard yields then following findings and recommendations regarding market timing and buyer strategy across Singapore vehicle categories:
 
 1. Across all categories, elevated premiums and demand spikes make the current cycle **unfavourable** to car buyers. They should **delay entry** for this bidding round.
 2. This is especially so for Category A, in which it exhibits sharpest premium markup, **~7% above** the Prevailing Quota Price (3 Mths). A high Market Heat of **2.11** drives bidder success rates down to a **red 47%** in Bidding Round 1 for April, showing that there is high competition. With Category A (Low Supply = 1,265 / High Premium = 118,000) positioned in **extreme top left quadrant** of the Scatter Plot further affirms that it is a risky category to bid in. Although quota change is **+0.08%**, the quota supply remains fairly flat, indicating that price spike is driven by buyer demand.

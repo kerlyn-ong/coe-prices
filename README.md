@@ -3,12 +3,19 @@
 ### Problem Statement
 Singapore's COE bidding market is characterized by high volatility and psychological bidding. Buyers lack a consolidated tool to tell them if they should enter the market now or wait. Hence, I developed an end-to-end analytics solution to assist high-intent car buyers in navigating the volatile Singapore Certificate of Entitlement (COE) Market. This dashboard provides real-time market checks and recommendations whether to 'Buy/Wait'.
 
-### Key Insights
-Based on historical bidding trends up to April 2026, the dashboard yields then following findings and recommendations regarding market timing and buyer strategy across Singapore vehicle categories:
+### Key Insights and Recommendation (as of April 2026)
+#### Executive Recommendation: **WAIT**
+Analysis of historical COE bidding cycles up to April 2026 shows an overheated, demand-driven market environment across all vehicle categories. The dashboard triggers a unified "WAIT" signal, advising buyers to **defer entry and wait** until premium valuations normalise against fair-value benchmarks. Across all categories, premiums are currently above their respective 3-Mth Prevailing Quota Price (~1-7%).
 
-1. Across all categories, elevated premiums and demand spikes make the current cycle **unfavourable** to car buyers. They should **delay entry** for this bidding round.
-2. This is especially so for Category A, in which it exhibits sharpest premium markup, **~7% above** the Prevailing Quota Price (3 Mths). A high Market Heat of **2.11** drives bidder success rates down to a **red 47%** in Bidding Round 1 for April, showing that there is high competition. With Category A (Low Supply = 1,265 / High Premium = 118,000) positioned in **extreme top left quadrant** of the Scatter Plot further affirms that it is a risky category to bid in. Although quota change is **+0.08%**, the quota supply remains fairly flat, indicating that price spike is driven by buyer demand.
-3. Category A remains as the **most overheated category** in the market. Buyers in this category should **wait** till premiums drop below the Prevailing Quota Price (3 Mths) and when Market Heat is at baseline levels (< 1.5).
+#### Category Highlights: Category A overheating
+* Elevated Premiums: Category A shows the sharpest premium markup ($118,000), **~7% above** the 3-Mth Prevailing Quota Price ($110,072 average).
+* Low Success Odds: A high Market Heat of **2.11** (>2 buyers competing for every 1 COE certificate) lowers bidders' success rates down to a **red 47%** in Bidding Round 1 for April.
+* Increasing Demand: From the Premium against Quota Scatter Plot, there is high demand which drives the latest round for Category A (Low Supply = 1,265 / High Premium = 118,000) to be positioned in **extreme top left quadrant**. Although quota change is **+0.08%**, the quota supply remains fairly flat, further indicates that price spike is purely driven by buyer demand rather than supply constraints.
+
+#### Strategic Entry Triggers for Buyers
+To transition from **WAIT** to **BUY** signal, categories must satisfy two quantitative thresholds:
+* **Primary Trigger - Premiums Normalisation**: Latest Premiums drop below the 3-Mth Prevailing Quota Price where vehicles become cheaper than baseline.
+* **Secondary Indicator - Competition Heat Cooling**: Market Heat is at baseline levels (**< 1.5**) where there are fewer competing buyers per certificate.
 
 ### Dashboard
 [Tableau Link - COE Prices Dashboard](https://public.tableau.com/app/profile/kerlyn.ong/viz/COE_Prices/COEPricesDashboard)
@@ -35,8 +42,8 @@ Data Modelling: Built a Star Schema from .xlsx file comprising of the 3 tables b
 
 ### Core Features and Metrics
 * Decision Signal: A sub-header that interprets price variance as 'Buy/Wait' signal. Price Variance is calculated by comparing Latest Premium against Prevailing Quota Premium of 3 months. If variance is negative, it represents below Fair Value and an opportunity to 'Buy', and vice versa.
-* Success Probability Logic: Calculated as Bids Success/Bids Received. This identifies the 'ease of entry' for a buyer.
 * Market Heat: A demand-to-supply ratio calculation to identify and assess compeition of how many bids are available for every 1 available certificate.
+* Success Probability Logic: Calculated as Bids Success/Bids Received. This identifies the 'ease of entry' for a buyer.
 
 ### Assumptions & Methodology
 * Calculation in one Vehicle Category does not affect the calculation of other categories within the same bidding window
@@ -46,6 +53,9 @@ Data Modelling: Built a Star Schema from .xlsx file comprising of the 3 tables b
 ### Key Technical Challenges
 * Syncing Vehicle Category across different sheets: Added boolean filter on every sheet to ensure final dashboard will be able to filter based on different categories
 * Showing latest data: Make use of different formulaes to ensure that latest date data is able to show for the KPIs.
+
+<details>
+<summary><h3> Click to Expand: Appendix </h3></summary>
 
 # Appendix
 Key Metrics Formulaes:
@@ -59,3 +69,4 @@ Basic Wireframe ([Figma Link](https://www.figma.com/design/wJvKpR8RvR9MFtLRxBFuP
 
 <img width="1059" height="751" alt="image" src="https://github.com/user-attachments/assets/691c8a87-0d49-45e4-8b7c-8a2c58fbc0f4" />
 
+</details>

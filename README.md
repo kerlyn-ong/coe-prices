@@ -22,9 +22,9 @@ To transition from **WAIT** to **BUY** signal, categories must satisfy two quant
 
 The dashboard - filtered by Category, tells the audience to wait until an opportunity rises to buy mainly due to:
 * Volatility Chart: Premium being higher than current Prevailing Quota Price
+* Market Heat: Index > 1.5 means high competition
 
 Other visuals are meant to be supporting and help drive buyers decisions
-* Market Heat: Index > 1.5 means high competition
 * Quote Change: A negative quota change means that there is high competition where supply is shrinking which will potentially push prices up
 * Success Probability: The red cells means that competition is high and a high percentage means its easy to win the bid
 * Bidding Round Comparison: Informs buyer which bidding rounds are premiums low and when to bid

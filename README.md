@@ -34,6 +34,7 @@ Other visuals are meant to be supporting and help drive buyers decisions
 
 ### Data Architecture and Tech Stack
 Visualization: Tableau\
+Data Source: [data.gov.sg](https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view)\
 Data Processing: SQL/Python (Pandas) via [Google Colab](https://github.com/kerlyn-ong/coe-prices/blob/6b49e9d40b6c96bd68dbd53334c60c234db09d4b/DataGovSG_COE_Dataset.ipynb)\
 Data Modelling: Built a Star Schema from .xlsx file comprising of the 3 tables below
 * dim_date: Date table

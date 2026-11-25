@@ -1,7 +1,7 @@
 # Predictive COE Prices Dashboard
 
 ### Problem Statement
-Singapore's COE bidding market is characterized by high volatility and psychological bidding. Buyers lack a consolidated tool to tell them if they should enter the market now or wait. Hence, I developed an end-to-end analytics solution to assist high-intent car buyers in navigating the volatile Singapore Certificate of Entitlement (COE) Market. This dashboard provides real-time market checks and recommendations whether to 'Buy/Wait'.
+In Singapore, purchasing a vehicle requires bidding for a Certificate of Entitlement (COE)—a government-issued license granting the right to own and use a vehicle for 10 years, with prices determined by supply-and-demand quotas. Because the COE market is characterized by high volatility and psychological bidding, buyers lack a consolidated tool to tell them whether to enter the market now or wait. To solve this, I developed an end-to-end analytics solution that provides real-time market checks and actionable "Buy/Wait" recommendations to help high-intent buyers time their entry.
 
 ### Key Insights and Recommendation (as of April 2026)
 #### Executive Recommendation: **WAIT**
